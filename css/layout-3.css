@@ -1,0 +1,41 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.vw-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-div{
+    flex: 1;
+    background-color: #D7E8D4;
+}
+
+.inner-content{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    flex: 1;
+    background-color: #9ACD32;
+}
+
+.article{
+    flex: 3;
+    background-color: #fff;
+}
+.footer{
+    flex:1;
+    background-color: #9ACD32;
+}
+
+p{
+    padding-left: 3%
+}
